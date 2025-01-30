@@ -48,25 +48,25 @@
 <body>
 
     <!-- Header -->
-     <header class="bg-orange-50 h-24">
+     <header class="bg-orange-50 h-24 px-7 md:p-0">
         <nav class="container mx-auto flex justify-between">
 
             <!-- Logo -->
             <div class="flex items-center gap-3 h-24">
                 <img src="./images/logo-header.png" alt="">
-                <h1 class="sora-font text-2xl">Browse<span class="text-yellow-300">4</span>Pets</h1>
+                <h1 class="sora-font text-2xl hidden md:block">Browse<span class="text-yellow-300">4</span>Pets</h1>
             </div>
 
             <!-- Navigation -->
             <div class="h-24 flex items-center">
                 <ul class="flex gap-5 text-xl">
-                    <li>
+                    <li class="hidden md:block">
                         <a href="#">Find a pet</a>
                     </li>
-                    <li>
+                    <li class="hidden md:block">
                         <a href="#">Breeds</a>
                     </li>
-                    <li>
+                    <li class="hidden md:block">
                         <a href="#">Contact us</a>
                     </li>
                 </ul>
@@ -74,14 +74,19 @@
 
             <!-- Buttons -->
             <div class="flex gap-5 items-center">
-                <i class="fa-regular fa-bell text-2xl cursor-pointer"></i>
-                <i class="fa-solid fa-magnifying-glass text-2xl cursor-pointer"></i>
-                <button class="border-2 px-8 pt-1 pb-2 rounded-lg border-yellow-300 text-xl">Login</button>
-                <button class="border-2 px-8 pt-1 pb-2 rounded-lg bg-yellow-300 border-yellow-300 text-xl">Register</button>
+                <i class="fa-regular fa-bell text-2xl cursor-pointer hidden md:block"></i>
+                <i class="fa-solid fa-magnifying-glass text-2xl cursor-pointer hidden md:block"></i>
+                <button class="border-2 px-8 pt-1 pb-2 rounded-lg border-yellow-300 text-xl hidden md:block">Login</button>
+                <button class="border-2 px-8 pt-1 pb-2 rounded-lg bg-yellow-300 border-yellow-300 text-xl hidden md:block">Register</button>
+            </div>
+
+            <div class="h-24 flex text-3xl items-center md:hidden">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
-
      </header>
+     <!-- Horizontal Line-->
+     <hr class="border-gray-700 md:hidden">
      <!-- Main -->
       <main></main>
       <!-- Footer -->
