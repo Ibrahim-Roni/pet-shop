@@ -45,7 +45,7 @@
      </style>
 </head>
 
-<body>
+<body class="sora-font">
 
     <!-- Header -->
      <header class="bg-orange-50 h-24 px-7 md:p-0">
@@ -74,7 +74,8 @@
 
             <!-- Buttons -->
             <div class="flex gap-5 items-center">
-                <i class="fa-regular fa-bell text-2xl cursor-pointer hidden md:block"></i>
+                <i class="fa-regular fa-bell text-2xl cursor-pointer hidden md:block
+                animate-pulse"></i>
                 <i class="fa-solid fa-magnifying-glass text-2xl cursor-pointer hidden md:block"></i>
                 <button class="border-2 px-8 pt-1 pb-2 rounded-lg border-yellow-300 text-xl hidden md:block">Login</button>
                 <button class="border-2 px-8 pt-1 pb-2 rounded-lg bg-yellow-300 border-yellow-300 text-xl hidden md:block">Register</button>
@@ -85,10 +86,125 @@
             </div>
         </nav>
      </header>
+
      <!-- Horizontal Line-->
      <hr class="border-gray-700 md:hidden">
+
+
      <!-- Main -->
-      <main></main>
+      <main class="container mx-auto px-6 md:p-0">
+
+        <!-- Banner Section -->
+         <section class="md:h-[calc(100vh-96px)] md:mt-36">
+            <div class="relative flex">
+                <div class="absolute">
+                    <h1 class="title-font text-4xl md:text-5xl lg:text-6xl mt-6 mb-8">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <p class="md:w-2/3 mb-8 text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+
+                    <button class="border-2 px-8 pt-1 pb-2 rounded-lg bg-yellow-300 border-yellow-300 text-xl animate-bounce">Find a pet</button>
+                </div>
+            </div>
+            <!-- Background Image -->
+            <img class="m-auto mt-60 md:mt-28 lg:mt-0" src="./images/cat-big.png" alt="">  
+         </section>
+
+         <!-- Browse By Categories Section -->
+          <section class="my-24">
+            <!-- Title -->
+            <div>
+                <h2 class="title-font text-4xl mb-12">Browse By Categories</h2>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-5">
+
+            <!-- Card-1 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/dog-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Dog</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-2 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/fish-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Fish</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-3 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/cat-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Cat</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-4 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/bird-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Bird</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-5 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/mouse-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Small pet</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card-6 -->
+            <div class="bg-amber-200 w-52 lg:w-auto h-64 rounded-xl flex items-center justify-center flex-row">
+                <div>
+                    <div class="bg-white rounded-full w-24 h-24 flex items-center justify-center">
+                        <img src="./images/rabbit-cartoon.png" alt="">
+                    </div>
+                    <div class=" text-center mt-5">
+                        <h3 class="text-xl title-font">Rabit</h3>
+                        <p class="mt-2 text-base">3 items</p>
+                    </div>
+                </div>
+            </div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+          </section>
+      </main>
+
       <!-- Footer -->
        <footer></footer>
 </body>
